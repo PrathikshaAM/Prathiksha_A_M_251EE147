@@ -1,0 +1,11 @@
+LDB r1,Ox42
+LDB r2,Ox18
+ADD r2,r1,r2
+LDB r1,Ox84
+SUB r1,r1,r2
+XOR r1,r1,r2
+INC r2,r1
+LDB r1,Ox0F
+AND r2,r1,r2
+STB r2
+
